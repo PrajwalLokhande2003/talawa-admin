@@ -1,7 +1,6 @@
 import { MockedProvider } from '@apollo/react-testing';
 import { fireEvent, render, screen, waitFor } from '@testing-library/react';
 import { I18nextProvider } from 'react-i18next';
-
 import userEvent from '@testing-library/user-event';
 import {
   USER_CREATED_ORGANIZATIONS,
